@@ -39,11 +39,6 @@ const UserList = () => {
       <Typography variant="h2" component="h2" gutterBottom>
         User List
       </Typography>
-      <Button style={{ marginLeft: '16px'}} variant="contained" color="primary">
-        <Link href="/user/create" passHref> 
-          <Typography style={{ color: 'inherit', textDecoration: 'none' }}>Create User</Typography>
-        </Link>
-      </Button>
       <TableContainer component={Paper}>
         <Table aria-label="simple table">
           <TableHead>
