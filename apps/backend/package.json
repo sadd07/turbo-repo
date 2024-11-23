@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc && node core/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-backend": "node core/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "firebase": "^11.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
